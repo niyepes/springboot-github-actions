@@ -19,7 +19,7 @@ public class SpringbootGithubActionsApplication {
     }
 
     @GetMapping("/saludo")
-    public String saludo() { return "Saludos, dale like y suscríbete"; }
+    public String saludoV2() { return "Saludos, dale like y suscríbete"; }
 
 }
 
