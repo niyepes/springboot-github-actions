@@ -14,9 +14,13 @@ public class SpringbootGithubActionsApplication {
 	}
 
     @GetMapping("/welcome")
-    public String saludo() {
+    public String welcome() {
         return "Welcome to Spring Boot with GitHub Actions!";
     }
+
+    @GetMapping("/saludo")
+    public String saludo() { return "Saludos, dale like y suscríbete"; }
+
 }
 
 
